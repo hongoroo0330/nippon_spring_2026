@@ -1,0 +1,13 @@
+BEGIN
+   INPUT a,b, uildel(*,/,+,-)
+   IF uildel = "*"
+   OUTPUT result = a * b
+   IF uildel = "-"
+   OUTPUT result = a - b
+   IF uildel = "+"
+   OUTPUT result = a + b
+   IF uildel = "/"
+   OUTPUT result = a / b
+   IF b = 0
+   OUTPUT "Aldaa garlaa"
+END   
