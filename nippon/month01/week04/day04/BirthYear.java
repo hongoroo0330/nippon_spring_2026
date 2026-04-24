@@ -8,7 +8,7 @@ public class BirthYear {
         System.out.println("Nasaa oruulna uu: ");
         int b = scanner.nextInt();
         int c = 2025 - b;
-        System.out.println(name + ""  +  b  +  "nastai," + c + "ond torson. ");
+        System.out.println(name  +  ""  +  b  +  "nastai," + c + "ond torson. ");
     }
     
 }
