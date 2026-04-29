@@ -1,0 +1,26 @@
+/* tag selector */
+
+section {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+#one {
+    color: aquamarine;
+}
+#two {
+    color: brown;
+}
+#three {
+    color: blueviolet;
+}
+li {
+    font-size: 30px;
+    color: blue;
+}
+.mongolia {
+    color: black;
+}
+.japanese {
+    color: red;
+}
