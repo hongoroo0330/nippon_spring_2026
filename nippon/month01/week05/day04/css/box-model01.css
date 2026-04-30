@@ -1,0 +1,48 @@
+/* tag selector */
+h1 {
+    font-size: 40px;
+    color: aqua;
+}
+h2 {
+    font-size: xx-small;
+    color: blue;
+}
+/* tag id, class selectors */
+
+/* id > tag */
+
+/* id > class */
+
+#box {
+    color: black;
+}
+
+#box { 
+    color: blueviolet;
+}
+#section-01 {
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border-color: tomato;
+    border-style: dotted;
+    border-width: 3px;
+}
+#section-02 {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    color: red;
+    /* border top */
+    border-top-color: rgb(127, 144, 255);
+    border-top-width: 15px;
+    border-top-style: double;
+
+}
+#section-03 {
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    color: white;
+    border: 10px solid orange;
+}

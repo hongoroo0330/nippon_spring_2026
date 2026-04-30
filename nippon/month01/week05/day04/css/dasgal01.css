@@ -1,0 +1,27 @@
+#h03 {
+    color: navy;
+}
+#s01 {
+    color: #fb7d9e;
+}
+#s02 {
+    color: rgb(101, 50, 255);
+}
+#d01 {
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+}
+#d02 {
+    height: 50px;
+    width: 150px;
+    background-color: yellow;
+    opacity: 0.5;
+}
+#b01 { 
+    background-color: orange;
+}
+#s02 {
+    color: aquamarine;
+    background-color: white;
+}
