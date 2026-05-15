@@ -1,0 +1,25 @@
+#card {
+    width: 1512px;
+    height: 982px;
+    background-color: #EFF3BF;
+    
+}
+#top {
+    width: 510px;
+    height: 755px;
+    border-radius: 64px;
+    background-color: #FFF;
+    box-shadow: 0 4px 44px rgba(0, 0, 0, 0.25);
+    margin: 100px auto;
+}
+#class-container {
+    width: 510px;
+    height: 139px;
+    border-radius: 64px 64px 0 0;
+    background-color: #973150;
+    fill: Linear-gradient(180deg, #BC5473 1.92%, rgba(188, 84, 115, 0.00) 75.11% );
+}
+
+
+
+

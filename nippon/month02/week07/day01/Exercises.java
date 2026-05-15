@@ -31,9 +31,17 @@ public class Exercises {
         return  c * 9/5 + 32;
     }
     static boolean isLeapYear(int year) {
-        return year % 4 == 0 && year % 400 == 0 || year % 100 == 1;
+        return year % 4 == 0 && year % 400 == 0 || year % 100 != 0;
         
     }
+    static int multiply(int a, int b) {
+        int result = a * b;
+        return result;
+    }
+    static boolean isOdd(int n) {
+        return n % 2 == 0;
+    }
+    
     public static void main(String[] args) {
        greet("Hongoroo");
        System.out.println(max(3, 4));
@@ -57,6 +65,12 @@ public class Exercises {
       System.out.println(isLeapYear(2024));
       System.out.println(isLeapYear(1900));
       System.out.println(isLeapYear(2000));
+      System.out.println(multiply(5, 4));
+
+      System.out.println(isOdd(5));
+
+      
+      
     }
     
     
