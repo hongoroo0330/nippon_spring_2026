@@ -1,0 +1,112 @@
+.nav {
+    width: 1440px;
+    height: 85px;
+    padding: 7px 127px;
+    background-color: rgba(255, 255, 255, 1);
+   
+
+     
+}
+.h1 {
+    position: relative;
+    width: 237px;
+    height: 29px;
+    padding: 10px;
+    float: left;
+    left:  -5%;
+    
+    
+}
+.div {
+    position: relative;
+    width: 675px;
+    height: 44.54px;
+    float: left;
+    left: 20%;
+}
+#Home {
+    float: left;
+    position: relative;
+    right: 10%;
+    top: -13%;
+     width: 63px;
+     height: 24px;
+    
+
+}
+#About {
+    position: relative;
+    float: left;
+     right: 5%;
+      top: -13%;
+       width: 63px;
+     height: 24px;
+     color: rgba(117, 195, 16, 1);
+     
+
+}
+#Design {
+    position: relative;
+    float: left;
+     top: -13%;
+      width: 63px;
+     height: 24px;
+     color: rgba(117, 195, 16, 1);
+     
+
+}
+#lllustration {
+    position: relative;
+    float: left;
+    left:  5%;
+     top: -13%;
+     width: 97px;
+     height: 18px;
+     color: rgba(117, 195, 16, 1);
+
+
+    
+
+}
+#Contact {
+    position: relative;
+    float: left;
+    left:  10%;
+    top: 10%;
+    border-radius: 30px;
+    background:  rgba(117, 195, 16, 1);
+    color: aliceblue;
+    border-color: rgba(117, 195, 16, 1);
+    size: 15px;
+    width: 149px;
+    height: 30px;
+
+
+     
+}
+#image01 {
+    width: 514px;
+    height: 513px;
+    position: relative;
+    right: 12%;
+    float: left;
+}
+.div02 {
+    position: relative;
+    width: 1440px;
+    height: 697px;
+    top: 86px;
+    padding: 92px 127px;
+    right: 1%;
+  
+}
+#div03 {
+    position: relative;
+    width: 569px;
+    height: 345px;
+    float: left;
+    top: 10%;
+    border-radius: 30px;
+}
+    
+
