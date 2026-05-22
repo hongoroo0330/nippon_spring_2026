@@ -1,8 +1,16 @@
+.body {
+    width: 1440px;
+    height: 2482px;
+}
 .nav {
+   
     width: 1440px;
     height: 85px;
     padding: 7px 127px;
     background-color: rgba(255, 255, 255, 1);
+    
+    
+
    
 
      
@@ -90,14 +98,15 @@
     position: relative;
     right: 12%;
     float: left;
+    right: 15%;
 }
 .div02 {
     position: relative;
     width: 1440px;
     height: 697px;
-    top: 86px;
+    top: 8px;
     padding: 92px 127px;
-    right: 1%;
+    left: 12%;
   
 }
 #div03 {
@@ -107,6 +116,35 @@
     float: left;
     top: 10%;
     border-radius: 30px;
+}
+#button {
+    position: relative;
+    width: 184px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgba(117, 195, 16, 1);
+    border-color: rgba(117, 195, 16, 1);
+    color: aliceblue;
+    left: 40%;
+
+}
+#div04 {
+    position: relative;
+     width: 1440px;
+     height:343px ;
+     bottom: 10%;
+    
+    text-align: center;
+}
+#button02 {
+    width: 184px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgba(117, 195, 16, 1);
+    border-color: rgba(117, 195, 16, 1);
+    color: aliceblue;
+    left: 40%;
+
 }
     
 
