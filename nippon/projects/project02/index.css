@@ -1,13 +1,19 @@
-.body {
+#back {
+    background-color: gray;
+}
+#body {
     width: 1440px;
     height: 2482px;
+    margin: 0 auto;
+    background-color: white
 }
-.nav {
+#nav {
    
     width: 1440px;
     height: 85px;
     padding: 7px 127px;
     background-color: rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 100px 5px  rgba(117, 195, 16, 1);
     
     
 
@@ -15,13 +21,14 @@
 
      
 }
-.h1 {
+#Portfolio {
     position: relative;
-    width: 237px;
-    height: 29px;
+    width: 252px;
+    height: 49px;
     padding: 10px;
     float: left;
     left:  -5%;
+     font-size: 20px;
     
     
 }
@@ -37,8 +44,8 @@
     position: relative;
     right: 10%;
     top: -13%;
-     width: 63px;
-     height: 24px;
+    font-size: 20px;
+     
     
 
 }
@@ -47,9 +54,10 @@
     float: left;
      right: 5%;
       top: -13%;
-       width: 63px;
-     height: 24px;
+      font-size: 20px;
+     
      color: rgba(117, 195, 16, 1);
+    
      
 
 }
@@ -57,8 +65,8 @@
     position: relative;
     float: left;
      top: -13%;
-      width: 63px;
-     height: 24px;
+      font-size: 20px;
+    
      color: rgba(117, 195, 16, 1);
      
 
@@ -68,8 +76,8 @@
     float: left;
     left:  5%;
      top: -13%;
-     width: 97px;
-     height: 18px;
+      font-size: 20px;
+     
      color: rgba(117, 195, 16, 1);
 
 
@@ -87,7 +95,7 @@
     border-color: rgba(117, 195, 16, 1);
     size: 15px;
     width: 149px;
-    height: 30px;
+    height: 44.54px;
 
 
      
@@ -98,7 +106,7 @@
     position: relative;
     right: 12%;
     float: left;
-    right: 15%;
+    right: 5%;
 }
 .div02 {
     position: relative;
@@ -116,35 +124,77 @@
     float: left;
     top: 10%;
     border-radius: 30px;
+    left: 15% ;
 }
 #button {
     position: relative;
     width: 184px;
-    height: 45px;
+    height: 55px;
     border-radius: 30px;
     background-color: rgba(117, 195, 16, 1);
     border-color: rgba(117, 195, 16, 1);
     color: aliceblue;
-    left: 40%;
+    left: 61%;
 
 }
 #div04 {
     position: relative;
      width: 1440px;
      height:343px ;
-     bottom: 10%;
+     bottom: 7%;
+     left: 11%;
+     
     
     text-align: center;
 }
 #button02 {
+    position: relative;
     width: 184px;
-    height: 45px;
+    height: 55px;
     border-radius: 30px;
     background-color: rgba(117, 195, 16, 1);
     border-color: rgba(117, 195, 16, 1);
     color: aliceblue;
-    left: 40%;
+    
+    bottom: 9%
 
+}
+#Satisfaction {
+    position: relative;
+    left: 10%;
+    font-size: 64px;
+  
+    
+}
+#p {
+    position: relative;
+    left: 38%;
+    bottom: 5%;
+    font-size: 20px;
+}
+
+
+#div05 {
+    width: 1368px;
+    height: 583px;
+
+}
+.div06 {
+    width: 382px;
+    height: 485px;
+    
+    float: left;
+    text-align: center;
+    border: solid 3px rgba(117, 195, 16, 1);
+    border-radius: 22px;
+}
+#Clients {
+    font-size: 64px;
+}
+#text {
+    font-size: 20px;
+    position: relative;
+    bottom: 9%;
 }
     
 
