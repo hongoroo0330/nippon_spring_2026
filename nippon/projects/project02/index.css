@@ -9,8 +9,9 @@
 }
 #nav {
    
-    width: 1440px;
-    height: 85px;
+   
+    
+    height: 71px;
     padding: 7px 127px;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 5px 5px 100px 5px  rgba(117, 195, 16, 1);
@@ -21,14 +22,17 @@
 
      
 }
+
+
 #Portfolio {
     position: relative;
-    width: 252px;
-    height: 49px;
-    padding: 10px;
+   width: 232px;
+   height: 29px;
     float: left;
-    left:  -5%;
-     font-size: 20px;
+    left:  1%;
+     font-size: 24px;
+     top: 25%;
+     
     
     
 }
@@ -37,14 +41,16 @@
     width: 675px;
     height: 44.54px;
     float: left;
-    left: 20%;
+    left: 23%;
+    top: 8%;
 }
 #Home {
     float: left;
     position: relative;
-    right: 10%;
+    right: -8%;
     top: -13%;
     font-size: 20px;
+    
      
     
 
@@ -52,7 +58,7 @@
 #About {
     position: relative;
     float: left;
-     right: 5%;
+     right: -18%;
       top: -13%;
       font-size: 20px;
      
@@ -66,7 +72,7 @@
     float: left;
      top: -13%;
       font-size: 20px;
-    
+    left: 28%;
      color: rgba(117, 195, 16, 1);
      
 
@@ -74,7 +80,7 @@
 #lllustration {
     position: relative;
     float: left;
-    left:  5%;
+    left:  37%;
      top: -13%;
       font-size: 20px;
      
@@ -87,13 +93,13 @@
 #Contact {
     position: relative;
     float: left;
-    left:  10%;
+    left:  46%;
     top: 10%;
     border-radius: 30px;
     background:  rgba(117, 195, 16, 1);
     color: aliceblue;
     border-color: rgba(117, 195, 16, 1);
-    size: 15px;
+    font-size: 15px;
     width: 149px;
     height: 44.54px;
 
@@ -106,7 +112,7 @@
     position: relative;
     right: 12%;
     float: left;
-    right: 5%;
+    
 }
 .div02 {
     position: relative;
@@ -124,7 +130,7 @@
     float: left;
     top: 10%;
     border-radius: 30px;
-    left: 15% ;
+    
 }
 #button {
     position: relative;
@@ -135,6 +141,7 @@
     border-color: rgba(117, 195, 16, 1);
     color: aliceblue;
     left: 61%;
+    font-size: 20px;
 
 }
 #div04 {
@@ -142,7 +149,7 @@
      width: 1440px;
      height:343px ;
      bottom: 7%;
-     left: 11%;
+     
      
     
     text-align: center;
@@ -155,7 +162,7 @@
     background-color: rgba(117, 195, 16, 1);
     border-color: rgba(117, 195, 16, 1);
     color: aliceblue;
-    
+    font-size: 20px;
     bottom: 9%
 
 }

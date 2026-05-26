@@ -1,26 +1,26 @@
 .cards-wrapper::after {
-
     clear: both;
+
 }
+
 .card {
     float: left;
-    width: 30%;
-    margin: 1%;
-    position: relative;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-}
+     width: 30%; 
+     margin: 1%; 
+     position: relative; 
+     border: 1px solid #ddd; 
+     border-radius: 8px; 
+     overflow: hidden;
+    height: 350px;}
 .card-badge {
-    float: left;
-    position: absolute;
-    top: 10px;
+    position: absolute; 
+    top: 10px; 
     left: 10px;
-    color: red;
-}
+    background-color: red;
+    border-radius: 20px;
+    padding: 5px 10px;
+font-size: small;}
 .card-img {
-    float: left;
-    width: 100%;
-    height: 160px;
-    background: #ddd;
-} 
+    width: 100%; 
+    height: 160px; 
+    background: #ddd;}
