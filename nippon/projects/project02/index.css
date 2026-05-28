@@ -1,41 +1,47 @@
 #back {
     background-color: gray;
 }
+
 #body {
     width: 1440px;
     height: 2482px;
     margin: 0 auto;
     background-color: white
 }
+
 #nav {
-   
-   
-    
+
+
+
     height: 71px;
     padding: 7px 127px;
     background-color: rgba(255, 255, 255, 1);
-    box-shadow: 5px 5px 100px 5px  rgba(117, 195, 16, 1);
-    
-    
+    box-shadow: 0px 5px 80px rgba(117, 195, 16, 1);
 
-   
 
-     
+
+
+
+
+}
+.green {
+    color: rgba(117, 195, 16, 1);
 }
 
 
 #Portfolio {
     position: relative;
-   width: 232px;
-   height: 29px;
+    width: 232px;
+    height: 29px;
     float: left;
-    left:  1%;
-     font-size: 24px;
-     top: 25%;
-     
-    
-    
+    left: 1%;
+    font-size: 24px;
+    top: 25%;
+
+
+
 }
+
 .div {
     position: relative;
     width: 675px;
@@ -44,59 +50,64 @@
     left: 23%;
     top: 8%;
 }
+
 #Home {
     float: left;
     position: relative;
     right: -8%;
     top: -13%;
     font-size: 20px;
-    
-     
-    
+
+
+
 
 }
+
 #About {
     position: relative;
     float: left;
-     right: -18%;
-      top: -13%;
-      font-size: 20px;
-     
-     color: rgba(117, 195, 16, 1);
-    
-     
+    right: -18%;
+    top: -13%;
+    font-size: 20px;
+
+    color: rgba(117, 195, 16, 1);
+
+
 
 }
+
 #Design {
     position: relative;
     float: left;
-     top: -13%;
-      font-size: 20px;
+    top: -13%;
+    font-size: 20px;
     left: 28%;
-     color: rgba(117, 195, 16, 1);
-     
+    color: rgba(117, 195, 16, 1);
+
 
 }
+
 #lllustration {
     position: relative;
     float: left;
-    left:  37%;
-     top: -13%;
-      font-size: 20px;
-     
-     color: rgba(117, 195, 16, 1);
+    left: 37%;
+    top: -13%;
+    font-size: 20px;
+
+    color: rgba(117, 195, 16, 1);
 
 
-    
+
 
 }
+
 #Contact {
     position: relative;
     float: left;
-    left:  46%;
+    left: 46%;
     top: 10%;
     border-radius: 30px;
-    background:  rgba(117, 195, 16, 1);
+    background: rgba(117, 195, 16, 1);
     color: aliceblue;
     border-color: rgba(117, 195, 16, 1);
     font-size: 15px;
@@ -104,16 +115,18 @@
     height: 44.54px;
 
 
-     
+
 }
+
 #image01 {
     width: 514px;
     height: 513px;
     position: relative;
     right: 12%;
     float: left;
-    
+
 }
+
 .div02 {
     position: relative;
     width: 1440px;
@@ -121,17 +134,20 @@
     top: 8px;
     padding: 92px 127px;
     left: 12%;
-  
+
 }
+
 #div03 {
     position: relative;
-    width: 569px;
+    width: 568px;
     height: 345px;
     float: left;
     top: 10%;
     border-radius: 30px;
-    
+    right: 4%;
+
 }
+
 #button {
     position: relative;
     width: 184px;
@@ -140,20 +156,22 @@
     background-color: rgba(117, 195, 16, 1);
     border-color: rgba(117, 195, 16, 1);
     color: aliceblue;
-    left: 61%;
+    left: 68%;
     font-size: 20px;
 
 }
+
 #div04 {
     position: relative;
-     width: 1440px;
-     height:343px ;
-     bottom: 7%;
-     
-     
-    
+    width: 1440px;
+    height: 343px;
+    bottom: 7%;
+
+
+
     text-align: center;
 }
+
 #button02 {
     position: relative;
     width: 184px;
@@ -164,44 +182,157 @@
     color: aliceblue;
     font-size: 20px;
     bottom: 9%
+}
+
+#Satisfaction {
+
+    text-align: right;
+    font-size: 64px;
+    font-style: bold;
+    width: 568px;
+    height: 156px;
+
 
 }
-#Satisfaction {
-    position: relative;
-    left: 10%;
-    font-size: 64px;
-  
-    
-}
+
 #p {
     position: relative;
-    left: 38%;
+    font-style: medium;
+    text-align: right;
     bottom: 5%;
     font-size: 20px;
 }
 
 
-#div05 {
+.div05 {
+    position: relative;
+    display: flex;
     width: 1368px;
     height: 583px;
+    left: 2.5%;
+    justify-content: space-between;
+
 
 }
-.div06 {
+
+.box {
     width: 382px;
     height: 485px;
-    
-    float: left;
     text-align: center;
-    border: solid 3px rgba(117, 195, 16, 1);
+    float: left;
+
     border-radius: 22px;
+    border: 3px solid #75C310;
+
+    background: #FFF;
+
+
+
+    filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.10)) drop-shadow(0 7px 16px rgba(0, 0, 0, 0.10)) drop-shadow(0 29px 29px rgba(0, 0, 0, 0.09)) drop-shadow(0 66px 39px rgba(0, 0, 0, 0.05)) drop-shadow(0 117px 47px rgba(0, 0, 0, 0.01)) drop-shadow(0 182px 51px rgba(0, 0, 0, 0.00));
+
 }
+
+.Surename {
+    position: relative;
+    width: 251px;
+    height: 39px;
+    font-size: 32px;
+    top: -17%;
+    left: 16%;
+}
+
+.text01 {
+    position: relative;
+    width: 297px;
+    height: 96px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    left: 11%;
+    top: -14%;
+
+
+
+
+
+
+}
+
+.CEO {
+    font-size: 14px;
+    font-style: italic;
+}
+
 #Clients {
     font-size: 64px;
 }
+
 #text {
     font-size: 20px;
     position: relative;
     bottom: 9%;
 }
+
+.images {
+    position: relative;
+    z-index: 1;
+    bottom: 20%;
+
+}
+
+#footer {
+    position: relative;
+    background-color: rgba(117, 195, 16, 1);
+    height: 469px;
+    width: 1440px;
+    bottom: -78px;
+}
+
+
+.footertext {
+    position: relative;
+    float: right;
+    color: white;
+    width: 377px;
+    height: 287px;
+    top: 13%;
+    right: 2%;
+    border-color: black;
+    
+}
+
+#footerbutton {
+position: relative;
+    border-radius: 29px;
+    width: 161px;
+    height: 48px;
+    font-size: 20px;
+    color: rgba(63, 99, 51, 1);
+    border-color: white;
+    top: 10%;
+    left: 25%;
     
 
+}
+#footerAlkusr {
+    position: relative;
+    font-size:24px ;
+    text-align: right;
+    right: 32%;
+}
+#footertext01 {
+    font-size: 20px;
+     
+     width: 253px;
+     height: 60px;
+     text-align: right;
+}
+#footertext02 {
+    position: relative;
+    width: 377px;
+    height: 30px;
+    font-size: 20px;
+    right: 15%;
+    
+    
+}
