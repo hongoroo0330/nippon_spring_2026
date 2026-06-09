@@ -1,0 +1,40 @@
+.flex-container {
+    display: flex;
+    /* margin-left: 10%; */
+
+
+   /* flex-direction: row-reverse; */
+   /* flex-direction: column-reverse; */
+    gap: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: yellow;
+    height: 60vh;
+    align-items: center;
+    
+
+}
+.flex-container .flex-children {
+    background-color: violet;
+    color: white;
+    font-size: 26px;
+    height: 150px;
+    width: 150px;
+}
+.flex-children.red {
+    background-color: red;
+    order: 1;
+}
+.flex-children.green {
+    background-color: green;
+    order: 2;
+
+}
+.flex-children.blue {
+    background-color: blue;
+    order: 3;
+}
+.flex-children.negative {
+    order: -1;
+  
+}
