@@ -7,16 +7,21 @@ public class TemperatureSensor implements Sensor {
 		this.celsius = celsius;
 	}
 
-	@Override
-	public double readValue() {
 
-		return celsius;
-	}
+	
 
 	@Override
 	public String unit() {
 
 		return "°C";
 	}
+     @Override
+	public double readValue() {
+		
+		return celsius;
+	}
 
-}
+
+	}
+
+

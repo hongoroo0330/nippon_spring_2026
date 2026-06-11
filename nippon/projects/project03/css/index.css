@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+#div {
+    width: 1152px;
+    height: 2041px;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: white;
+    
+    
+  
+    
+    
+    
+}
+nav {
+   
+    display: flex;
+    justify-content: flex-end;
+    gap: 28px;
+    padding: 20px 30px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: bold;
+ 
+    
+
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin-top: 80px;
+}
+.hero-text {
+    width: 500px;
+}
+.hero-text h1 {
+    font-size: 44px;
+    
+}
+.hero-text p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 20px 0 20px;
+    width: 497px;
+    height: 66px;
+
+    
+    
+}
+.hero-image {
+    width: 243px;
+    height: 243px;
+}
+.hero-text button {
+    background-color: rgba(255, 100, 100, 1);
+    width: 208px;
+    height: 47px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    border: none;
+}
+.posts {
+    width: 1152px;
+    height: 396px;
+    background-color:rgba(237, 247, 250, 1) ;
+    
+    
+}
+.post {
+    width: 418px;
+    height: 295px;
+    background-color: white;
+}
+.post-container {
+    display: flex;
+    justify-content: space-between;
+    
+}

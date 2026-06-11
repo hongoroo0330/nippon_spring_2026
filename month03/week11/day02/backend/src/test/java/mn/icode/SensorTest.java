@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class SensorTest {
 	
 	@Test
-	public void readValue () {
+	public void readValue() {
 		TemperatureSensor sensor = new TemperatureSensor(22);
 		Assertions.assertEquals(22, sensor.readValue());
 	}
@@ -15,6 +15,17 @@ public class SensorTest {
 	public void unit () {
 		TemperatureSensor sensor = new TemperatureSensor(22);
 		Assertions.assertEquals("°C", sensor.unit());
+		
+	}
+	@Test
+	public void readValue1() {
+		PressureSensor sensor = new PressureSensor(5000);
+		Assertions.assertEquals(5000, sensor.readValue1());
+	}
+	@Test
+	public void unit1() {
+		PressureSensor sensor = new PressureSensor(5000);
+		Assertions.assertEquals("%", sensor.unit());
 		
 	}
 

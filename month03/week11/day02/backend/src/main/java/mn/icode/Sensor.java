@@ -1,7 +1,10 @@
 package mn.icode;
 
 public interface Sensor {
-	double readValue();
+	static double readValue() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	String unit();
 
@@ -13,4 +16,6 @@ public interface Sensor {
 		return readValue() >= min && readValue() <= max;
 
 	}
+
+	double readValue1();
 }
