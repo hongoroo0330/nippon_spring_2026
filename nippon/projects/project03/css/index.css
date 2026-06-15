@@ -1,71 +1,78 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: gray;
 }
-#div {
-    width: 1152px;
-    height: 2041px;
+
+#container {
+    max-width: 1152px;
     margin: auto;
     font-family: sans-serif;
     background-color: white;
-    
-    
-  
-    
-    
-    
+
 }
-nav {
-   
+
+header {
+    width: 100%;
+}
+
+header nav {
     display: flex;
     justify-content: flex-end;
     gap: 28px;
     padding: 20px 30px;
-    
 }
+
 nav a {
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
     font-size: 20px;
     font-weight: bold;
- 
-    
+
+
 
 
 }
 
 .hero {
     display: flex;
-    justify-content: space-between;
-    
-    align-items: center;
-    margin-top: 80px;
+    justify-content: center;
+    gap: 150px;
+    align-items: start;
+    margin-top: 13%;
+
 }
+
 .hero-text {
     width: 500px;
 }
+
 .hero-text h1 {
     font-size: 44px;
-    
+
 }
+
 .hero-text p {
     font-size: 16px;
     line-height: 1.4;
     margin: 20px 0 20px;
     width: 497px;
     height: 66px;
+    margin-top: 6%;
 
-    
-    
+
+
 }
+
 .hero-image {
     width: 243px;
     height: 243px;
 }
+
 .hero-text button {
     background-color: rgba(255, 100, 100, 1);
     width: 208px;
@@ -73,21 +80,66 @@ nav a {
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
     border: none;
+    margin-top: 3%;
 }
+
 .posts {
     width: 1152px;
-    height: 396px;
-    background-color:rgba(237, 247, 250, 1) ;
-    
-    
+    margin: 0 auto;
+
+    background-color: rgba(237, 247, 250, 1);
+    margin-top: 6%;
 }
-.post {
-    width: 418px;
-    height: 295px;
-    background-color: white;
+
+.posts h2 {
+    margin-left: 12%;
+    font-family: "Heebo", sans-serif;
+    /* position: absolute; */
+    /* margin-left: 7%; */
+    /* padding: 2%; */
+    top: 586px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 20;
+    font-style: normal;
 }
+
+.posts-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .post-container {
     display: flex;
-    justify-content: space-between;
-    
+    height: 396px;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    margin-top: 0;
+
+}
+.post h3 {
+    font-size:26px ;
+    font-family: "Heebo", sans-serif;
+}
+.p1 {
+    font-size:18px ;
+}
+
+
+.post {
+    max-width: 418px;
+    height: 295px;
+    background-color: white;
+    /* margin-top: 4%; */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+    gap: 30px;
+    margin-bottom: 10px;
 }
