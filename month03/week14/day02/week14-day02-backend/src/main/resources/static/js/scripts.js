@@ -146,3 +146,7 @@ function gradeLabel(score) {
 			}
 }
 console.log(gradeLabel(95));
+
+function createStudent(name, score) {
+	
+}
