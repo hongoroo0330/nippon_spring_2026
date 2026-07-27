@@ -1,0 +1,30 @@
+#container {
+    width: 616px;
+    height: 841px;
+    border-radius: 24px;
+    background-color: rgba(32, 33, 40, 1);
+}
+.buttons {
+    position: relative;
+    height: 552px;
+    background-color: rgba(38, 40, 49, 1);
+    border-radius: 24px;
+    top: 34%;
+    
+}
+ button {
+   
+  border: 4px white 4px;
+  border-radius: 8px;
+   margin: 10px;
+    width: 114px;
+    height: 72px;
+    font-size: 33px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.15);
+   
+
+}
+#zero {
+    width: 260px;
+}
