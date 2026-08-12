@@ -29,38 +29,67 @@ button {
 
 
 }
+
 #AC {
     color: rgba(144, 202, 249, 1);
 }
+
 #C {
     color: rgba(144, 202, 249, 1);
 }
+
 #precent {
     color: rgba(144, 202, 249, 1);
 }
+
 #zero {
     width: 260px;
 }
+
 #division {
-   color: rgba(229, 115, 115, 1);
+    color: rgba(229, 115, 115, 1);
 }
+
 #multiply {
     color: rgba(229, 115, 115, 1);
 }
+
 #subtract {
     color: rgba(229, 115, 115, 1);
 }
+
 #plus {
     color: rgba(229, 115, 115, 1);
 }
+
 #equal {
-    background-color:  rgba(229, 115, 115, 1);
+    background-color: rgba(229, 115, 115, 1);
 }
+#divide {
+    color: rgba(229, 115, 115, 1);
+}
+
 #p {
     position: relative;
     color: white;
     font-size: 23px;
     top: 5%;
     left: 4%;
-    
+
+}
+
+#output {
+
+
+    position: relative;
+    display: flex;
+    justify-content: right;
+
+    font-size: 58px;
+    color: white;
+    bottom: -28%;
+
+
+    height: 30px;
+
 }

@@ -106,4 +106,4 @@ on r.inventory_id = i.inventory_id
 
 group by c."name", f.film_id
 order by c."name", rental_count desc;
-select count(*) from city;
+select count(*) from city; 
